@@ -18,7 +18,8 @@ The project began with a basic p5.js sketch that converted webcam input to ASCII
 Evolution & Feature Development
 Phase 1: Language Selection System
 The first major enhancement was implementing a multi-language selector. This required:
-1.	Data Structure Design: Created a languages array containing objects with:
+
+Data Structure Design: Created a languages array containing objects with:
 	
 o	id: unique identifier
 
