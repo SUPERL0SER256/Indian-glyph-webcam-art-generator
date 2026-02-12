@@ -19,7 +19,7 @@ Evolution & Feature Development
 Phase 1: Language Selection System
 The first major enhancement was implementing a multi-language selector. This required:
 1.	Data Structure Design: Created a languages array containing objects with:
-2.	
+	
 o	id: unique identifier
 
 o	label: display name for UI
@@ -30,9 +30,9 @@ o	sample: preview characters for button display
 
 o	chars: the full character set ordered from dense to sparse
 
-4.	Dynamic UI Generation: Built buildLangButtons() to programmatically create language selection buttons from the data structure
-   
-6.	State Management: Implemented selectLanguage() to handle language switching with visual feedback
+Dynamic UI Generation: Built buildLangButtons() to programmatically create language selection buttons from the data structure
+
+State Management: Implemented selectLanguage() to handle language switching with visual feedback
 
 
 Phase 2: Language Curation
@@ -102,6 +102,10 @@ Use and download the VS Code Live Server for locallly running th code.
 2.	Right-click index.html → "Open with Live Server"
 3.	Automatically opens at http://localhost:5500
 
+
+
 <img width="1880" height="892" alt="image" src="https://github.com/user-attachments/assets/1155dfea-c0fd-4ad5-988a-44edc2f88e9d" />
+
+---> website interface :/
 
 
