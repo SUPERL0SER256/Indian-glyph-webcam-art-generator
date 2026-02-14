@@ -90,7 +90,7 @@ const BASE_W = 64;
 const BASE_H = 48;
 let vidw, vidh, scl;
 
-// ── BUILD UI ──
+
 function buildLangButtons() {
   const container = document.getElementById("langButtons");
   languages.forEach(lang => {
@@ -113,11 +113,11 @@ function selectLanguage(id) {
     `${currentLang.group} · ${currentLang.label}`;
 }
 
-// ── P5 SETUP ──
+
 function setup() {
   buildLangButtons();
 
-  // invert toggle
+  
   const invertBtn = document.getElementById("invertToggle");
   invertBtn.addEventListener("click", () => {
     invertMode = !invertMode;
@@ -125,7 +125,7 @@ function setup() {
     invertBtn.classList.toggle("active", invertMode);
   });
 
-  // mirror toggle
+  
   const mirrorBtn = document.getElementById("mirrorToggle");
   mirrorBtn.addEventListener("click", () => {
     mirrorMode = !mirrorMode;
@@ -133,7 +133,7 @@ function setup() {
     mirrorBtn.classList.toggle("active", mirrorMode);
   });
 
-  // canvas sizing
+  
   const isMobile = window.innerWidth < 640;
   scl = isMobile ? 7 : 10;
   vidw = BASE_W;
@@ -191,3 +191,4 @@ function draw() {
     }
   }
 }
+
