@@ -1,7 +1,7 @@
 INDO CHINESE GLYPHCAM — Project Documentation // I hope i did these languages justice //
 Overview
 Ts a real-time webcam ASCII art converter that renders live video feeds using characters from multiple writing systems. The application captures webcam input and translates pixel brightness values into typographic Indian language characters, creating a continuously representation of the video feed.
-________________________________________
+
 Development Process
 Initial Concept
 The project began with a basic p5.js sketch that converted webcam input to ASCII art using ASCII characters. The original implementation featured:
