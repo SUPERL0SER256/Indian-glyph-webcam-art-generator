@@ -1,4 +1,4 @@
-// ── LANGUAGE SETS ──
+
 const languages = [
   {
     id: "chinese",
@@ -80,7 +80,7 @@ const languages = [
   }
 ];
 
-// ── STATE ──
+
 let currentLang = languages[0];
 let invertMode = false;
 let mirrorMode = true;
@@ -168,7 +168,7 @@ function draw() {
 
   for (let i = 0; i < vidw; i++) {
     for (let j = 0; j < vidh; j++) {
-      // mirror: flip x index
+      
       const srcI = mirrorMode ? (vidw - 1 - i) : i;
       const pixelIndex = (srcI + j * vidw) * 4;
 
@@ -191,4 +191,5 @@ function draw() {
     }
   }
 }
+
 
